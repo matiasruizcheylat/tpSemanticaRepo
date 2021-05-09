@@ -24,6 +24,11 @@
 #    Individuals
 #################################################################
 
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021.ttl#Alejandro_Casco
+:Alejandro_Casco rdf:type owl:NamedIndividual ,
+                          <https://schema.org/Person> .
+
+
 ###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021.ttl#Diego_Torres
 :Diego_Torres rdf:type owl:NamedIndividual ,
                        <http://xmlns.com/foaf/0.1/Person> .
