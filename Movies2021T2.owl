@@ -1,808 +1,808 @@
-@prefix : <http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl> .
+@prefix : <https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <https://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@base <https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl> .
 
-<http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl> rdf:type owl:Ontology .
+<https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://schema.org/actionPlatform
-<http://schema.org/actionPlatform> rdf:type owl:ObjectProperty ;
-                                   rdfs:domain <http://schema.org/EntryPoint> ;
-                                   rdfs:range <http://schema.org/URL> .
+###  https://schema.org/actionPlatform
+<https://schema.org/actionPlatform> rdf:type owl:ObjectProperty ;
+                                   rdfs:domain <https://schema.org/EntryPoint> ;
+                                   rdfs:range <https://schema.org/URL> .
 
 
-###  http://schema.org/actor
-<http://schema.org/actor> rdf:type owl:ObjectProperty ;
-                          rdfs:domain <http://schema.org/Movie> ;
-                          rdfs:range <http://schema.org/Person> .
+###  https://schema.org/actor
+<https://schema.org/actor> rdf:type owl:ObjectProperty ;
+                          rdfs:domain <https://schema.org/Movie> ;
+                          rdfs:range <https://schema.org/Person> .
 
 
-###  http://schema.org/aggregateRating
-<http://schema.org/aggregateRating> rdf:type owl:ObjectProperty ;
-                                    rdfs:domain <http://schema.org/Movie> ;
-                                    rdfs:range <http://schema.org/AggregateRating> .
+###  https://schema.org/aggregateRating
+<https://schema.org/aggregateRating> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <https://schema.org/Movie> ;
+                                    rdfs:range <https://schema.org/AggregateRating> .
 
 
-###  http://schema.org/author
-<http://schema.org/author> rdf:type owl:ObjectProperty ;
-                           rdfs:domain <http://schema.org/Movie> ;
-                           rdfs:range <http://schema.org/Person> .
+###  https://schema.org/author
+<https://schema.org/author> rdf:type owl:ObjectProperty ;
+                           rdfs:domain <https://schema.org/Movie> ;
+                           rdfs:range <https://schema.org/Person> .
 
 
-###  http://schema.org/character
-<http://schema.org/character> rdf:type owl:ObjectProperty ;
-                              rdfs:domain <http://schema.org/Movie> ;
-                              rdfs:range <http://schema.org/Person> .
+###  https://schema.org/character
+<https://schema.org/character> rdf:type owl:ObjectProperty ;
+                              rdfs:domain <https://schema.org/Movie> ;
+                              rdfs:range <https://schema.org/Person> .
 
 
-###  http://schema.org/countryOfOrigin
-<http://schema.org/countryOfOrigin> rdf:type owl:ObjectProperty ;
-                                    rdfs:domain <http://schema.org/Movie> ;
-                                    rdfs:range <http://schema.org/Country> .
+###  https://schema.org/countryOfOrigin
+<https://schema.org/countryOfOrigin> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <https://schema.org/Movie> ;
+                                    rdfs:range <https://schema.org/Country> .
 
 
-###  http://schema.org/creator
-<http://schema.org/creator> rdf:type owl:ObjectProperty ;
-                            rdfs:domain <http://schema.org/Movie> ;
-                            rdfs:range <http://schema.org/Person> .
+###  https://schema.org/creator
+<https://schema.org/creator> rdf:type owl:ObjectProperty ;
+                            rdfs:domain <https://schema.org/Movie> ;
+                            rdfs:range <https://schema.org/Person> .
 
 
-###  http://schema.org/director
-<http://schema.org/director> rdf:type owl:ObjectProperty ;
-                             rdfs:domain <http://schema.org/Movie> ;
-                             rdfs:range <http://schema.org/Person> .
+###  https://schema.org/director
+<https://schema.org/director> rdf:type owl:ObjectProperty ;
+                             rdfs:domain <https://schema.org/Movie> ;
+                             rdfs:range <https://schema.org/Person> .
 
 
-###  http://schema.org/eligibleRegion
-<http://schema.org/eligibleRegion> rdf:type owl:ObjectProperty ;
-                                   rdfs:domain <http://schema.org/Offer> ;
-                                   rdfs:range <http://schema.org/Country> .
+###  https://schema.org/eligibleRegion
+<https://schema.org/eligibleRegion> rdf:type owl:ObjectProperty ;
+                                   rdfs:domain <https://schema.org/Offer> ;
+                                   rdfs:range <https://schema.org/Country> .
 
 
-###  http://schema.org/expectsAcceptanceOf
-<http://schema.org/expectsAcceptanceOf> rdf:type owl:ObjectProperty ;
-                                        rdfs:domain <http://schema.org/WatchAction> ;
-                                        rdfs:range <http://schema.org/Offer> .
+###  https://schema.org/expectsAcceptanceOf
+<https://schema.org/expectsAcceptanceOf> rdf:type owl:ObjectProperty ;
+                                        rdfs:domain <https://schema.org/WatchAction> ;
+                                        rdfs:range <https://schema.org/Offer> .
 
 
-###  http://schema.org/hasPart
-<http://schema.org/hasPart> rdf:type owl:ObjectProperty ;
-                            rdfs:domain <http://schema.org/Movie> ;
-                            rdfs:range <http://schema.org/Clip> .
+###  https://schema.org/hasPart
+<https://schema.org/hasPart> rdf:type owl:ObjectProperty ;
+                            rdfs:domain <https://schema.org/Movie> ;
+                            rdfs:range <https://schema.org/Clip> .
 
 
-###  http://schema.org/identifier
-<http://schema.org/identifier> rdf:type owl:ObjectProperty ;
-                               rdfs:domain <http://schema.org/URL> ;
+###  https://schema.org/identifier
+<https://schema.org/identifier> rdf:type owl:ObjectProperty ;
+                               rdfs:domain <https://schema.org/URL> ;
                                rdfs:range owl:Thing .
 
 
-###  http://schema.org/image
-<http://schema.org/image> rdf:type owl:ObjectProperty ;
-                          rdfs:domain <http://schema.org/Movie> ;
-                          rdfs:range <http://schema.org/ImageObject> .
+###  https://schema.org/image
+<https://schema.org/image> rdf:type owl:ObjectProperty ;
+                          rdfs:domain <https://schema.org/Movie> ;
+                          rdfs:range <https://schema.org/ImageObject> .
 
 
-###  http://schema.org/itemReviewed
-<http://schema.org/itemReviewed> rdf:type owl:ObjectProperty ;
-                                 rdfs:domain <http://schema.org/Review> ;
+###  https://schema.org/itemReviewed
+<https://schema.org/itemReviewed> rdf:type owl:ObjectProperty ;
+                                 rdfs:domain <https://schema.org/Review> ;
                                  rdfs:range owl:Thing .
 
 
-###  http://schema.org/location
-<http://schema.org/location> rdf:type owl:ObjectProperty ;
-                             rdfs:domain <http://schema.org/PublicationEvent> ;
-                             rdfs:range <http://schema.org/Country> .
+###  https://schema.org/location
+<https://schema.org/location> rdf:type owl:ObjectProperty ;
+                             rdfs:domain <https://schema.org/PublicationEvent> ;
+                             rdfs:range <https://schema.org/Country> .
 
 
-###  http://schema.org/potentialAction
-<http://schema.org/potentialAction> rdf:type owl:ObjectProperty ;
-                                    rdfs:domain <http://schema.org/Clip> ;
-                                    rdfs:range <http://schema.org/WatchAction> .
+###  https://schema.org/potentialAction
+<https://schema.org/potentialAction> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <https://schema.org/Clip> ;
+                                    rdfs:range <https://schema.org/WatchAction> .
 
 
-###  http://schema.org/productionCompany
-<http://schema.org/productionCompany> rdf:type owl:ObjectProperty ;
-                                      rdfs:domain <http://schema.org/Movie> ;
-                                      rdfs:range <http://schema.org/Organization> .
+###  https://schema.org/productionCompany
+<https://schema.org/productionCompany> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <https://schema.org/Movie> ;
+                                      rdfs:range <https://schema.org/Organization> .
 
 
-###  http://schema.org/publisher
-<http://schema.org/publisher> rdf:type owl:ObjectProperty ;
-                              rdfs:domain <http://schema.org/Review> ;
-                              rdfs:range <http://schema.org/Organization> ,
-                                         <http://schema.org/Person> .
+###  https://schema.org/publisher
+<https://schema.org/publisher> rdf:type owl:ObjectProperty ;
+                              rdfs:domain <https://schema.org/Review> ;
+                              rdfs:range <https://schema.org/Organization> ,
+                                         <https://schema.org/Person> .
 
 
-###  http://schema.org/releasedEvent
-<http://schema.org/releasedEvent> rdf:type owl:ObjectProperty ;
-                                  rdfs:domain <http://schema.org/Movie> ;
-                                  rdfs:range <http://schema.org/PublicationEvent> .
+###  https://schema.org/releasedEvent
+<https://schema.org/releasedEvent> rdf:type owl:ObjectProperty ;
+                                  rdfs:domain <https://schema.org/Movie> ;
+                                  rdfs:range <https://schema.org/PublicationEvent> .
 
 
-###  http://schema.org/review
-<http://schema.org/review> rdf:type owl:ObjectProperty ;
-                           rdfs:domain <http://schema.org/Movie> ;
-                           rdfs:range <http://schema.org/Review> .
+###  https://schema.org/review
+<https://schema.org/review> rdf:type owl:ObjectProperty ;
+                           rdfs:domain <https://schema.org/Movie> ;
+                           rdfs:range <https://schema.org/Review> .
 
 
-###  http://schema.org/reviewRating
-<http://schema.org/reviewRating> rdf:type owl:ObjectProperty ;
-                                 rdfs:domain <http://schema.org/Review> ;
-                                 rdfs:range <http://schema.org/Rating> .
+###  https://schema.org/reviewRating
+<https://schema.org/reviewRating> rdf:type owl:ObjectProperty ;
+                                 rdfs:domain <https://schema.org/Review> ;
+                                 rdfs:range <https://schema.org/Rating> .
 
 
-###  http://schema.org/target
-<http://schema.org/target> rdf:type owl:ObjectProperty ;
-                           rdfs:domain <http://schema.org/WatchAction> ;
-                           rdfs:range <http://schema.org/EntryPoint> .
+###  https://schema.org/target
+<https://schema.org/target> rdf:type owl:ObjectProperty ;
+                           rdfs:domain <https://schema.org/WatchAction> ;
+                           rdfs:range <https://schema.org/EntryPoint> .
 
 
-###  http://schema.org/thumbnail
-<http://schema.org/thumbnail> rdf:type owl:ObjectProperty ;
-                              rdfs:domain <http://schema.org/VideoObject> ;
-                              rdfs:range <http://schema.org/ImageObject> .
+###  https://schema.org/thumbnail
+<https://schema.org/thumbnail> rdf:type owl:ObjectProperty ;
+                              rdfs:domain <https://schema.org/VideoObject> ;
+                              rdfs:range <https://schema.org/ImageObject> .
 
 
-###  http://schema.org/timeRequired
-<http://schema.org/timeRequired> rdf:type owl:ObjectProperty ;
-                                 rdfs:domain <http://schema.org/Clip> ;
-                                 rdfs:range <http://schema.org/Duration> .
+###  https://schema.org/timeRequired
+<https://schema.org/timeRequired> rdf:type owl:ObjectProperty ;
+                                 rdfs:domain <https://schema.org/Clip> ;
+                                 rdfs:range <https://schema.org/Duration> .
 
 
-###  http://schema.org/trailer
-<http://schema.org/trailer> rdf:type owl:ObjectProperty ;
-                            rdfs:domain <http://schema.org/Movie> ;
-                            rdfs:range <http://schema.org/VideoObject> .
+###  https://schema.org/trailer
+<https://schema.org/trailer> rdf:type owl:ObjectProperty ;
+                            rdfs:domain <https://schema.org/Movie> ;
+                            rdfs:range <https://schema.org/VideoObject> .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owlimageUrl
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owlimageUrl
 :imageUrl rdf:type owl:DatatypeProperty ;
-          rdfs:domain <http://schema.org/ImageObject> ,
-                      <http://schema.org/Movie> ,
-                      <http://schema.org/Person> .
+          rdfs:domain <https://schema.org/ImageObject> ,
+                      <https://schema.org/Movie> ,
+                      <https://schema.org/Person> .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owlmainEntityOfPage
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owlmainEntityOfPage
 :mainEntityOfPage rdf:type owl:DatatypeProperty ;
-                  rdfs:domain <http://schema.org/Organization> .
+                  rdfs:domain <https://schema.org/Organization> .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owlsameAs
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owlsameAs
 :sameAs rdf:type owl:DatatypeProperty ;
-        rdfs:domain <http://schema.org/Person> .
+        rdfs:domain <https://schema.org/Person> .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owltype
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owltype
 :type rdf:type owl:DatatypeProperty ;
-      rdfs:domain <http://schema.org/AggregateRating> ,
-                  <http://schema.org/Clip> ,
-                  <http://schema.org/Country> ,
-                  <http://schema.org/Offer> ,
-                  <http://schema.org/Organization> ,
-                  <http://schema.org/Person> ,
-                  <http://schema.org/PublicationEvent> ,
-                  <http://schema.org/Rating> ,
-                  <http://schema.org/Review> ,
-                  <http://schema.org/VideoObject> ,
-                  <http://schema.org/WatchAction> ,
+      rdfs:domain <https://schema.org/AggregateRating> ,
+                  <https://schema.org/Clip> ,
+                  <https://schema.org/Country> ,
+                  <https://schema.org/Offer> ,
+                  <https://schema.org/Organization> ,
+                  <https://schema.org/Person> ,
+                  <https://schema.org/PublicationEvent> ,
+                  <https://schema.org/Rating> ,
+                  <https://schema.org/Review> ,
+                  <https://schema.org/VideoObject> ,
+                  <https://schema.org/WatchAction> ,
                   owl:Thing .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owlurl
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owlurl
 :url rdf:type owl:DatatypeProperty ;
-     rdfs:domain <http://schema.org/Movie> ,
-                 <http://schema.org/Organization> ,
-                 <http://schema.org/Person> ,
+     rdfs:domain <https://schema.org/Movie> ,
+                 <https://schema.org/Organization> ,
+                 <https://schema.org/Person> ,
                  owl:Thing .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#imageUrl0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#imageUrl0
 :imageUrl0 rdf:type owl:DatatypeProperty ;
-           rdfs:domain <http://schema.org/Person> .
+           rdfs:domain <https://schema.org/Person> .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#imageUrl1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#imageUrl1
 :imageUrl1 rdf:type owl:DatatypeProperty ;
-           rdfs:domain <http://schema.org/Person> .
+           rdfs:domain <https://schema.org/Person> .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#imageUrl2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#imageUrl2
 :imageUrl2 rdf:type owl:DatatypeProperty ;
-           rdfs:domain <http://schema.org/Person> .
+           rdfs:domain <https://schema.org/Person> .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#imageUrl3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#imageUrl3
 :imageUrl3 rdf:type owl:DatatypeProperty ;
-           rdfs:domain <http://schema.org/Person> .
+           rdfs:domain <https://schema.org/Person> .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#url0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#url0
 :url0 rdf:type owl:DatatypeProperty ;
-      rdfs:domain <http://schema.org/Person> .
+      rdfs:domain <https://schema.org/Person> .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#url1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#url1
 :url1 rdf:type owl:DatatypeProperty ;
-      rdfs:domain <http://schema.org/Person> .
+      rdfs:domain <https://schema.org/Person> .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#url2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#url2
 :url2 rdf:type owl:DatatypeProperty ;
-      rdfs:domain <http://schema.org/Person> .
+      rdfs:domain <https://schema.org/Person> .
 
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#url3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#url3
 :url3 rdf:type owl:DatatypeProperty ;
-      rdfs:domain <http://schema.org/Person> .
+      rdfs:domain <https://schema.org/Person> .
 
 
-###  http://schema.org/availabilityStarts
-<http://schema.org/availabilityStarts> rdf:type owl:DatatypeProperty ;
-                                       rdfs:domain <http://schema.org/Offer> ;
+###  https://schema.org/availabilityStarts
+<https://schema.org/availabilityStarts> rdf:type owl:DatatypeProperty ;
+                                       rdfs:domain <https://schema.org/Offer> ;
                                        rdfs:range xsd:dateTime .
 
 
-###  http://schema.org/bestRating
-<http://schema.org/bestRating> rdf:type owl:DatatypeProperty ;
-                               rdfs:domain <http://schema.org/AggregateRating> ,
-                                           <http://schema.org/Rating> .
+###  https://schema.org/bestRating
+<https://schema.org/bestRating> rdf:type owl:DatatypeProperty ;
+                               rdfs:domain <https://schema.org/AggregateRating> ,
+                                           <https://schema.org/Rating> .
 
 
-###  http://schema.org/category
-<http://schema.org/category> rdf:type owl:DatatypeProperty ;
-                             rdfs:domain <http://schema.org/Offer> .
+###  https://schema.org/category
+<https://schema.org/category> rdf:type owl:DatatypeProperty ;
+                             rdfs:domain <https://schema.org/Offer> .
 
 
-###  http://schema.org/contentRating
-<http://schema.org/contentRating> rdf:type owl:DatatypeProperty ;
-                                  rdfs:domain <http://schema.org/Movie> .
+###  https://schema.org/contentRating
+<https://schema.org/contentRating> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain <https://schema.org/Movie> .
 
 
-###  http://schema.org/dateCreated
-<http://schema.org/dateCreated> rdf:type owl:DatatypeProperty ;
-                                rdfs:domain <http://schema.org/Movie> ,
-                                            <http://schema.org/Review> ;
+###  https://schema.org/dateCreated
+<https://schema.org/dateCreated> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <https://schema.org/Movie> ,
+                                            <https://schema.org/Review> ;
                                 rdfs:range xsd:dateTime .
 
 
-###  http://schema.org/datePublished
-<http://schema.org/datePublished> rdf:type owl:DatatypeProperty ;
-                                  rdfs:domain <http://schema.org/Movie> .
+###  https://schema.org/datePublished
+<https://schema.org/datePublished> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain <https://schema.org/Movie> .
 
 
-###  http://schema.org/dateUpdated
-<http://schema.org/dateUpdated> rdf:type owl:DatatypeProperty ;
-                                rdfs:domain <http://schema.org/Movie> .
+###  https://schema.org/dateUpdated
+<https://schema.org/dateUpdated> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <https://schema.org/Movie> .
 
 
-###  http://schema.org/description
-<http://schema.org/description> rdf:type owl:DatatypeProperty ;
-                                rdfs:domain <http://schema.org/AggregateRating> ,
-                                            <http://schema.org/Clip> ,
-                                            <http://schema.org/Movie> ,
-                                            <http://schema.org/VideoObject> .
+###  https://schema.org/description
+<https://schema.org/description> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <https://schema.org/AggregateRating> ,
+                                            <https://schema.org/Clip> ,
+                                            <https://schema.org/Movie> ,
+                                            <https://schema.org/VideoObject> .
 
 
-###  http://schema.org/embedUrl
-<http://schema.org/embedUrl> rdf:type owl:DatatypeProperty ;
-                             rdfs:domain <http://schema.org/VideoObject> .
+###  https://schema.org/embedUrl
+<https://schema.org/embedUrl> rdf:type owl:DatatypeProperty ;
+                             rdfs:domain <https://schema.org/VideoObject> .
 
 
-###  http://schema.org/genre
-<http://schema.org/genre> rdf:type owl:DatatypeProperty ;
-                          rdfs:domain <http://schema.org/Movie> .
+###  https://schema.org/genre
+<https://schema.org/genre> rdf:type owl:DatatypeProperty ;
+                          rdfs:domain <https://schema.org/Movie> .
 
 
-###  http://schema.org/inLanguaje
-<http://schema.org/inLanguaje> rdf:type owl:DatatypeProperty ;
-                               rdfs:domain <http://schema.org/EntryPoint> ,
-                                           <http://schema.org/Review> .
+###  https://schema.org/inLanguaje
+<https://schema.org/inLanguaje> rdf:type owl:DatatypeProperty ;
+                               rdfs:domain <https://schema.org/EntryPoint> ,
+                                           <https://schema.org/Review> .
 
 
-###  http://schema.org/keywords
-<http://schema.org/keywords> rdf:type owl:DatatypeProperty ;
-                             rdfs:domain <http://schema.org/Movie> .
+###  https://schema.org/keywords
+<https://schema.org/keywords> rdf:type owl:DatatypeProperty ;
+                             rdfs:domain <https://schema.org/Movie> .
 
 
-###  http://schema.org/name
-<http://schema.org/name> rdf:type owl:DatatypeProperty ;
-                         rdfs:domain <http://schema.org/AggregateRating> ,
-                                     <http://schema.org/Country> ,
-                                     <http://schema.org/Duration> ,
-                                     <http://schema.org/Movie> ,
-                                     <http://schema.org/Organization> ,
-                                     <http://schema.org/Person> ,
-                                     <http://schema.org/VideoObject> ,
+###  https://schema.org/name
+<https://schema.org/name> rdf:type owl:DatatypeProperty ;
+                         rdfs:domain <https://schema.org/AggregateRating> ,
+                                     <https://schema.org/Country> ,
+                                     <https://schema.org/Duration> ,
+                                     <https://schema.org/Movie> ,
+                                     <https://schema.org/Organization> ,
+                                     <https://schema.org/Person> ,
+                                     <https://schema.org/VideoObject> ,
                                      owl:Thing .
 
 
-###  http://schema.org/ratingCount
-<http://schema.org/ratingCount> rdf:type owl:DatatypeProperty ;
-                                rdfs:domain <http://schema.org/AggregateRating> ;
+###  https://schema.org/ratingCount
+<https://schema.org/ratingCount> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <https://schema.org/AggregateRating> ;
                                 rdfs:range xsd:integer .
 
 
-###  http://schema.org/ratingValue
-<http://schema.org/ratingValue> rdf:type owl:DatatypeProperty ;
-                                rdfs:domain <http://schema.org/AggregateRating> ,
-                                            <http://schema.org/Rating> .
+###  https://schema.org/ratingValue
+<https://schema.org/ratingValue> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <https://schema.org/AggregateRating> ,
+                                            <https://schema.org/Rating> .
 
 
-###  http://schema.org/reviewBody
-<http://schema.org/reviewBody> rdf:type owl:DatatypeProperty ;
-                               rdfs:domain <http://schema.org/Review> .
+###  https://schema.org/reviewBody
+<https://schema.org/reviewBody> rdf:type owl:DatatypeProperty ;
+                               rdfs:domain <https://schema.org/Review> .
 
 
-###  http://schema.org/reviewCount
-<http://schema.org/reviewCount> rdf:type owl:DatatypeProperty ;
-                                rdfs:domain <http://schema.org/AggregateRating> ;
+###  https://schema.org/reviewCount
+<https://schema.org/reviewCount> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <https://schema.org/AggregateRating> ;
                                 rdfs:range xsd:integer .
 
 
-###  http://schema.org/startDate
-<http://schema.org/startDate> rdf:type owl:DatatypeProperty ;
-                              rdfs:domain <http://schema.org/PublicationEvent> .
+###  https://schema.org/startDate
+<https://schema.org/startDate> rdf:type owl:DatatypeProperty ;
+                              rdfs:domain <https://schema.org/PublicationEvent> .
 
 
-###  http://schema.org/thumbnailUrl
-<http://schema.org/thumbnailUrl> rdf:type owl:DatatypeProperty ;
-                                 rdfs:domain <http://schema.org/VideoObject> .
+###  https://schema.org/thumbnailUrl
+<https://schema.org/thumbnailUrl> rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain <https://schema.org/VideoObject> .
 
 
-###  http://schema.org/uploadDate
-<http://schema.org/uploadDate> rdf:type owl:DatatypeProperty ;
-                               rdfs:domain <http://schema.org/VideoObject> ;
+###  https://schema.org/uploadDate
+<https://schema.org/uploadDate> rdf:type owl:DatatypeProperty ;
+                               rdfs:domain <https://schema.org/VideoObject> ;
                                rdfs:range xsd:dateTime .
 
 
-###  http://schema.org/urlTemplate
-<http://schema.org/urlTemplate> rdf:type owl:DatatypeProperty ;
-                                rdfs:domain <http://schema.org/EntryPoint> .
+###  https://schema.org/urlTemplate
+<https://schema.org/urlTemplate> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <https://schema.org/EntryPoint> .
 
 
-###  http://schema.org/worstRating
-<http://schema.org/worstRating> rdf:type owl:DatatypeProperty ;
-                                rdfs:domain <http://schema.org/AggregateRating> ,
-                                            <http://schema.org/Rating> .
+###  https://schema.org/worstRating
+<https://schema.org/worstRating> rdf:type owl:DatatypeProperty ;
+                                rdfs:domain <https://schema.org/AggregateRating> ,
+                                            <https://schema.org/Rating> .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://schema.org/AggregateRating
-<http://schema.org/AggregateRating> rdf:type owl:Class .
+###  https://schema.org/AggregateRating
+<https://schema.org/AggregateRating> rdf:type owl:Class .
 
 
-###  http://schema.org/Clip
-<http://schema.org/Clip> rdf:type owl:Class .
+###  https://schema.org/Clip
+<https://schema.org/Clip> rdf:type owl:Class .
 
 
-###  http://schema.org/Country
-<http://schema.org/Country> rdf:type owl:Class .
+###  https://schema.org/Country
+<https://schema.org/Country> rdf:type owl:Class .
 
 
-###  http://schema.org/Duration
-<http://schema.org/Duration> rdf:type owl:Class .
+###  https://schema.org/Duration
+<https://schema.org/Duration> rdf:type owl:Class .
 
 
-###  http://schema.org/EntryPoint
-<http://schema.org/EntryPoint> rdf:type owl:Class .
+###  https://schema.org/EntryPoint
+<https://schema.org/EntryPoint> rdf:type owl:Class .
 
 
-###  http://schema.org/ImageObject
-<http://schema.org/ImageObject> rdf:type owl:Class .
+###  https://schema.org/ImageObject
+<https://schema.org/ImageObject> rdf:type owl:Class .
 
 
-###  http://schema.org/Movie
-<http://schema.org/Movie> rdf:type owl:Class .
+###  https://schema.org/Movie
+<https://schema.org/Movie> rdf:type owl:Class .
 
 
-###  http://schema.org/Offer
-<http://schema.org/Offer> rdf:type owl:Class .
+###  https://schema.org/Offer
+<https://schema.org/Offer> rdf:type owl:Class .
 
 
-###  http://schema.org/Organization
-<http://schema.org/Organization> rdf:type owl:Class .
+###  https://schema.org/Organization
+<https://schema.org/Organization> rdf:type owl:Class .
 
 
-###  http://schema.org/Person
-<http://schema.org/Person> rdf:type owl:Class .
+###  https://schema.org/Person
+<https://schema.org/Person> rdf:type owl:Class .
 
 
-###  http://schema.org/PublicationEvent
-<http://schema.org/PublicationEvent> rdf:type owl:Class .
+###  https://schema.org/PublicationEvent
+<https://schema.org/PublicationEvent> rdf:type owl:Class .
 
 
-###  http://schema.org/Rating
-<http://schema.org/Rating> rdf:type owl:Class .
+###  https://schema.org/Rating
+<https://schema.org/Rating> rdf:type owl:Class .
 
 
-###  http://schema.org/Review
-<http://schema.org/Review> rdf:type owl:Class .
+###  https://schema.org/Review
+<https://schema.org/Review> rdf:type owl:Class .
 
 
-###  http://schema.org/URL
-<http://schema.org/URL> rdf:type owl:Class .
+###  https://schema.org/URL
+<https://schema.org/URL> rdf:type owl:Class .
 
 
-###  http://schema.org/VideoObject
-<http://schema.org/VideoObject> rdf:type owl:Class .
+###  https://schema.org/VideoObject
+<https://schema.org/VideoObject> rdf:type owl:Class .
 
 
-###  http://schema.org/WatchAction
-<http://schema.org/WatchAction> rdf:type owl:Class .
+###  https://schema.org/WatchAction
+<https://schema.org/WatchAction> rdf:type owl:Class .
 
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#ImageObject3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#ImageObject3
 :ImageObject3 rdf:type owl:NamedIndividual, 
-<http://schema.org/ImageObject> ;
+<https://schema.org/ImageObject> ;
 :imageUrl "https://img.ecartelera.com/carteles/13100/13170/009_p.jpg" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Clip3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Clip3
 :Clip3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Clip> ;
-<http://schema.org/timeRequired> :Duration3 ;
-<http://schema.org/potentialAction> :WatchAction3 ;
+<https://schema.org/Clip> ;
+<https://schema.org/timeRequired> :Duration3 ;
+<https://schema.org/potentialAction> :WatchAction3 ;
 :type: "Clip" ;
-<http://schema.org/description> "trailer" .
+<https://schema.org/description> "trailer" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Duration3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Duration3
 :Duration3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Duration> ;
-<http://schema.org/name> "PT2M24S" .
+<https://schema.org/Duration> ;
+<https://schema.org/name> "PT2M24S" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#WatchAction3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#WatchAction3
 :WatchAction3 rdf:type owl:NamedIndividual, 
-<http://schema.org/WatchAction> ;
+<https://schema.org/WatchAction> ;
 :type: "WatchAction" ;
-<http://schema.org/target> :EntryPoint3 ;
-<http://schema.org/expectsAcceptanceOf> :Offer3 .
+<https://schema.org/target> :EntryPoint3 ;
+<https://schema.org/expectsAcceptanceOf> :Offer3 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#EntryPoint3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#EntryPoint3
 :EntryPoint3 rdf:type owl:NamedIndividual, 
-<http://schema.org/EntryPoint> ;
+<https://schema.org/EntryPoint> ;
 :type: "EntryPoint" ;
-<http://schema.org/urlTemplate> "https://www.ecartelera.com/videos/trailer-espanol-wonder-woman-1984/";
-<http://schema.org/inLanguage> "es";
-<http://schema.org/actionPlatform> :URL-platform3-0 ; 
-<http://schema.org/actionPlatform> :URL-platform3-1 ; 
-<http://schema.org/actionPlatform> :URL-platform3-2 ; 
-<http://schema.org/actionPlatform> :URL-platform3-3 .
+<https://schema.org/urlTemplate> "https://www.ecartelera.com/videos/trailer-espanol-wonder-woman-1984/";
+<https://schema.org/inLanguage> "es";
+<https://schema.org/actionPlatform> :URL-platform3-0 ; 
+<https://schema.org/actionPlatform> :URL-platform3-1 ; 
+<https://schema.org/actionPlatform> :URL-platform3-2 ; 
+<https://schema.org/actionPlatform> :URL-platform3-3 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#URL-platform3-0 .
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#URL-platform3-0 .
 :URL-platform3-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/URL> ;
+<https://schema.org/URL> ;
 :url :Plaform-thing3-0 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Plaform-thing3-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Plaform-thing3-0
 :Plaform-thing3-0 rdf:type owl:NamedIndividual , owl:Thing; 
-<http://schema.org/name> "http://schema.org/DesktopWebPlatform" .
+<https://schema.org/name> "https://schema.org/DesktopWebPlatform" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#URL-platform3-1 .
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#URL-platform3-1 .
 :URL-platform3-1 rdf:type owl:NamedIndividual, 
-<http://schema.org/URL> ;
+<https://schema.org/URL> ;
 :url :Plaform-thing3-1 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Plaform-thing3-1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Plaform-thing3-1
 :Plaform-thing3-1 rdf:type owl:NamedIndividual , owl:Thing; 
-<http://schema.org/name> "http://schema.org/MobileWebPlatform" .
+<https://schema.org/name> "https://schema.org/MobileWebPlatform" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#URL-platform3-2 .
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#URL-platform3-2 .
 :URL-platform3-2 rdf:type owl:NamedIndividual, 
-<http://schema.org/URL> ;
+<https://schema.org/URL> ;
 :url :Plaform-thing3-2 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Plaform-thing3-2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Plaform-thing3-2
 :Plaform-thing3-2 rdf:type owl:NamedIndividual , owl:Thing; 
-<http://schema.org/name> "http://schema.org/IOSPlatform" .
+<https://schema.org/name> "https://schema.org/IOSPlatform" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#URL-platform3-3 .
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#URL-platform3-3 .
 :URL-platform3-3 rdf:type owl:NamedIndividual, 
-<http://schema.org/URL> ;
+<https://schema.org/URL> ;
 :url :Plaform-thing3-3 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Plaform-thing3-3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Plaform-thing3-3
 :Plaform-thing3-3 rdf:type owl:NamedIndividual , owl:Thing; 
-<http://schema.org/name> "http://schema.googleapis.com/GoogleVideoCast" .
+<https://schema.org/name> "https://schema.googleapis.com/GoogleVideoCast" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Offer3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Offer3
 :Offer3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Offer> ;
+<https://schema.org/Offer> ;
 :type: "Offer" ;
-<http://schema.org/availabilityStarts> "2019-12-08T22:30:37"^^xsd:dateTime;
-<http://schema.org/category> "free";
-<http://schema.org/elegibleRegion> :Eligible-Country3.
+<https://schema.org/availabilityStarts> "2019-12-08T22:30:37"^^xsd:dateTime;
+<https://schema.org/category> "free";
+<https://schema.org/elegibleRegion> :Eligible-Country3.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Eligible-Country3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Eligible-Country3
 :Elegible-Country3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Country> ;
+<https://schema.org/Country> ;
 :type: "Country" ;
-<http://schema.org/name> "ES".
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating0
+<https://schema.org/name> "ES".
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating0
 :Rating0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
+<https://schema.org/Rating> ;
 :type "AggregateRating" ;
-<http://schema.org/name> "Tomatometer" ;
-<http://schema.org/description> "The Tomatometer rating � based on the published opinions of hundreds of film and television critics � is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
-<http://schema.org/bestRating> "100" ;
-<http://schema.org/worstRating> "0" ;
-<http://schema.org/ratingValue> "59" ;
-<http://schema.org/ratingCount> 426 ;
-<http://schema.org/reviewCount> 426 .
+<https://schema.org/name> "Tomatometer" ;
+<https://schema.org/description> "The Tomatometer rating � based on the published opinions of hundreds of film and television critics � is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
+<https://schema.org/bestRating> "100" ;
+<https://schema.org/worstRating> "0" ;
+<https://schema.org/ratingValue> "59" ;
+<https://schema.org/ratingCount> 426 ;
+<https://schema.org/reviewCount> 426 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating1
 :Rating1 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
+<https://schema.org/Rating> ;
 :type "AggregateRating" ;
-<http://schema.org/name> "" ;
-<http://schema.org/description> "" ;
-<http://schema.org/bestRating> "10.0" ;
-<http://schema.org/worstRating> "1.0" ;
-<http://schema.org/ratingValue> "5.4" ;
-<http://schema.org/ratingCount> 192715 ;
-<http://schema.org/reviewCount> 0 .
+<https://schema.org/name> "" ;
+<https://schema.org/description> "" ;
+<https://schema.org/bestRating> "10.0" ;
+<https://schema.org/worstRating> "1.0" ;
+<https://schema.org/ratingValue> "5.4" ;
+<https://schema.org/ratingCount> 192715 ;
+<https://schema.org/reviewCount> 0 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating2
 :Rating2 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
+<https://schema.org/Rating> ;
 :type "AggregateRating" ;
-<http://schema.org/name> "" ;
-<http://schema.org/description> "" ;
-<http://schema.org/bestRating> "100" ;
-<http://schema.org/worstRating> "0" ;
-<http://schema.org/ratingValue> "60" ;
-<http://schema.org/ratingCount> 57 ;
-<http://schema.org/reviewCount> 0 .
+<https://schema.org/name> "" ;
+<https://schema.org/description> "" ;
+<https://schema.org/bestRating> "100" ;
+<https://schema.org/worstRating> "0" ;
+<https://schema.org/ratingValue> "60" ;
+<https://schema.org/ratingCount> 57 ;
+<https://schema.org/reviewCount> 0 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating3
 :Rating3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
+<https://schema.org/Rating> ;
 :type "AggregateRating" ;
-<http://schema.org/name> "" ;
-<http://schema.org/description> "" ;
-<http://schema.org/bestRating> "10" ;
-<http://schema.org/worstRating> "0" ;
-<http://schema.org/ratingValue> "7,6" ;
-<http://schema.org/ratingCount> 20 ;
-<http://schema.org/reviewCount> 0 .
+<https://schema.org/name> "" ;
+<https://schema.org/description> "" ;
+<https://schema.org/bestRating> "10" ;
+<https://schema.org/worstRating> "0" ;
+<https://schema.org/ratingValue> "7,6" ;
+<https://schema.org/ratingCount> 20 ;
+<https://schema.org/reviewCount> 0 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Publisher2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Publisher2
 :Publisher2 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
-<http://schema.org/name> "Warner Bros. Pictures";
+<https://schema.org/Organization> ;
+<https://schema.org/name> "Warner Bros. Pictures";
 :type "Organization";
 :url "https://www.metacritic.com/company/warner-bros-pictures".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization0
 :Organization0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Warner Bros. Pictures" .
+<https://schema.org/name> "Warner Bros. Pictures" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization3
 :Organization3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Warner Bros. Pictures" ; 
+<https://schema.org/name> "Warner Bros. Pictures" ; 
 :mainEntityOfPage "https://www.ecartelera.com/empresas/warner-bros/" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#PublicationEvent3 
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#PublicationEvent3 
 :PublicationEvent3 rdf:type owl:NamedIndividual, 
-<http://schema.org/PublicationEvent> ;
+<https://schema.org/PublicationEvent> ;
 :type "PublicationEvent" ;
-<http://schema.org/startDate> "2020-12-18T00:00:00-00:00"^^xsd:dateTime;
-<http://schema.org/location> :Country-Publication3 .
+<https://schema.org/startDate> "2020-12-18T00:00:00-00:00"^^xsd:dateTime;
+<https://schema.org/location> :Country-Publication3 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Country-Publication3 
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Country-Publication3 
 :Country-Publication3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Country> ;
+<https://schema.org/Country> ;
 :type "Country" ;
-<http://schema.org/name> "ES" .
+<https://schema.org/name> "ES" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Country3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Country3
 :Country3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Country> ;
-<http://schema.org/name> "EE.UU.".
+<https://schema.org/Country> ;
+<https://schema.org/name> "EE.UU.".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Character3-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Character3-0
 :Character3-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
-<http://schema.org/name> "Diana Prince / Wonder Woman".
+<https://schema.org/Person> ;
+<https://schema.org/name> "Diana Prince / Wonder Woman".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Character3-1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Character3-1
 :Character3-1 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
-<http://schema.org/name> "Barbara Minerva / Cheetah".
+<https://schema.org/Person> ;
+<https://schema.org/name> "Barbara Minerva / Cheetah".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Character3-2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Character3-2
 :Character3-2 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
-<http://schema.org/name> "Steve Trevor".
+<https://schema.org/Person> ;
+<https://schema.org/name> "Steve Trevor".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Character3-3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Character3-3
 :Character3-3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
-<http://schema.org/name> "Antiope".
+<https://schema.org/Person> ;
+<https://schema.org/name> "Antiope".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Character3-4
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Character3-4
 :Character3-4 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
-<http://schema.org/name> "Hippolyta".
+<https://schema.org/Person> ;
+<https://schema.org/name> "Hippolyta".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-0
 :Creator1-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Patty Jenkins";
+<https://schema.org/name> "Patty Jenkins";
 :url "/name/nm0420941/";
 :imageUrl "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-1
 :Creator1-1 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Geoff Johns";
+<https://schema.org/name> "Geoff Johns";
 :url "/name/nm0424315/";
 :imageUrl "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-2
 :Creator1-2 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Patty Jenkins";
+<https://schema.org/name> "Patty Jenkins";
 :url "/name/nm0420941/";
 :imageUrl "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-3
 :Creator1-3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Geoff Johns";
+<https://schema.org/name> "Geoff Johns";
 :url "/name/nm0424315/";
 :imageUrl "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-4
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-4
 :Creator1-4 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Dave Callaham";
+<https://schema.org/name> "Dave Callaham";
 :url "/name/nm1709264/";
 :imageUrl "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-5
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-5
 :Creator1-5 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "William Moulton Marston";
+<https://schema.org/name> "William Moulton Marston";
 :url "/name/nm0551376/";
 :imageUrl "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-6
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-6
 :Creator1-6 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Organization" ;
 :url "/company/co0028338/".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-7
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-7
 :Creator1-7 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Organization" ;
 :url "/company/co0038332/".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-8
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-8
 :Creator1-8 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Organization" ;
 :url "/company/co0283444/".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-9
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-9
 :Creator1-9 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Organization" ;
 :url "/company/co0728674/".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-10
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Creator1-10
 :Creator1-10 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Organization" ;
 :url "/company/co0002663/".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Author0-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Author0-0
 :Author0-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Patty Jenkins";
+<https://schema.org/name> "Patty Jenkins";
 :sameAs "https://www.rottentomatoes.com/celebrity/patty_jenkins";
 :imageUrl "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#VideoObject1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#VideoObject1
 :VideoObject1 rdf:type owl:NamedIndividual , 
-<http://schema.org/VideoObject> ;
+<https://schema.org/VideoObject> ;
 :type "VideoObject" ;
-<http://schema.org/name> "Stream on HBO Max for a Limited Time" ;
-<http://schema.org/description> "Fast forward to the 1980s as Wonder Woman�s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah." ;
-<http://schema.org/uploadDate> "2020-12-07T01:51:07Z"^^xsd:dateTime;
+<https://schema.org/name> "Stream on HBO Max for a Limited Time" ;
+<https://schema.org/description> "Fast forward to the 1980s as Wonder Woman�s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah." ;
+<https://schema.org/uploadDate> "2020-12-07T01:51:07Z"^^xsd:dateTime;
 :embedUrl "/video/imdb/vi3240214809" ;
 :thumbnailUrl "https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg" ;
-<http://schema.org/thumbnail> :VideoObject-ImageObject1 .
+<https://schema.org/thumbnail> :VideoObject-ImageObject1 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#VideoObject-ImageObject1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#VideoObject-ImageObject1
 :VideoObject-ImageObject1 rdf:type owl:NamedIndividual, 
-<http://schema.org/ImageObject> ;:type "ImageObject" ;
+<https://schema.org/ImageObject> ;:type "ImageObject" ;
 :imageUrl "https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#VideoObject2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#VideoObject2
 :VideoObject2 rdf:type owl:NamedIndividual , 
-<http://schema.org/VideoObject> ;
+<https://schema.org/VideoObject> ;
 :type "VideoObject" ;
-<http://schema.org/name> "Wonder Woman 1984 (Trailer 2)" ;
-<http://schema.org/description> "Video Clip of Wonder Woman 1984" ;
-<http://schema.org/uploadDate> "2020-11-21T17:41:36"^^xsd:dateTime;
+<https://schema.org/name> "Wonder Woman 1984 (Trailer 2)" ;
+<https://schema.org/description> "Video Clip of Wonder Woman 1984" ;
+<https://schema.org/uploadDate> "2020-11-21T17:41:36"^^xsd:dateTime;
 :embedUrl "" ;
 :thumbnailUrl "https://content.internetvideoarchive.com/content/hdphotos/13126/013126/013126_820x461_637413475681110755.jpg" .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor0
 :Actor0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Alex Delescu";
+<https://schema.org/name> "Alex Delescu";
 :url0 "https://www.metacritic.com/person/alex-delescu";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor1
 :Actor1 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Amr Waked";
+<https://schema.org/name> "Amr Waked";
 :url0 "https://www.metacritic.com/person/amr-waked";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor2
 :Actor2 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Amreen N. Yaqoob";
+<https://schema.org/name> "Amreen N. Yaqoob";
 :url0 "https://www.metacritic.com/person/amreen-n-yaqoob";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor3
 :Actor3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Bern Collaco";
+<https://schema.org/name> "Bern Collaco";
 :url0 "https://www.metacritic.com/person/bern-collaco";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor4
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor4
 :Actor4 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Brittney Aleah";
+<https://schema.org/name> "Brittney Aleah";
 :url0 "https://www.metacritic.com/person/brittney-aleah";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor5
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor5
 :Actor5 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Chris Pine";
+<https://schema.org/name> "Chris Pine";
 :url0 "https://www.rottentomatoes.com/celebrity/christopher_pine";
 :imageUrl0 "https://resizing.flixster.com/lUzaa-oO0RKNt3ekbqvlU5RPqR8=/660x990/v1.bjs3NTYxMDQ7ajsxODc3MzsxMjAwOzY2MDs5OTA";
 :url1 "/name/nm1517976/";
@@ -812,19 +812,19 @@
 :url3 "https://www.ecartelera.com/personas/chris-pine/";
 :imageUrl3 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor6
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor6
 :Actor6 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Chris Silcox";
+<https://schema.org/name> "Chris Silcox";
 :url0 "https://www.metacritic.com/person/chris-silcox";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor7
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor7
 :Actor7 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Connie Nielsen";
+<https://schema.org/name> "Connie Nielsen";
 :url0 "https://www.rottentomatoes.com/celebrity/connie_nielsen";
 :imageUrl0 "https://resizing.flixster.com/9Pu5qp5qfehIlclgv8tIbVPGlr0=/2938x3500/v1.cjs1MDM1NztqOzE4NzY1OzEyMDA7MjkzODszNTAw";
 :url1 "https://www.metacritic.com/person/connie-nielsen";
@@ -832,27 +832,27 @@
 :url2 "https://www.ecartelera.com/personas/connie-nielsen/";
 :imageUrl2 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor8
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor8
 :Actor8 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Ella Walker";
+<https://schema.org/name> "Ella Walker";
 :url0 "https://www.metacritic.com/person/ella-walker";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor9
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor9
 :Actor9 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Gabriella Wilde";
+<https://schema.org/name> "Gabriella Wilde";
 :url0 "https://www.metacritic.com/person/gabriella-wilde";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor10
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor10
 :Actor10 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Gal Gadot";
+<https://schema.org/name> "Gal Gadot";
 :url0 "https://www.rottentomatoes.com/celebrity/gal-gadot";
 :imageUrl0 "https://resizing.flixster.com/QUtKfz3anQMHFQQruCGKVWbv1Kc=/633x704/v1.cjs0Mjc1NjtwOzE4NzY1OzEyMDA7NjMzOzcwNA";
 :url1 "/name/nm2933757/";
@@ -862,83 +862,83 @@
 :url3 "https://www.ecartelera.com/personas/gal-gadot/";
 :imageUrl3 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor11
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor11
 :Actor11 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Jamaal Burcher";
+<https://schema.org/name> "Jamaal Burcher";
 :url0 "https://www.metacritic.com/person/jamaal-burcher";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor12
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor12
 :Actor12 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Jamal Alkhaldi";
+<https://schema.org/name> "Jamal Alkhaldi";
 :url0 "https://www.metacritic.com/person/jamal-alkhaldi";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor13
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor13
 :Actor13 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Jeff Moore";
+<https://schema.org/name> "Jeff Moore";
 :url0 "https://www.metacritic.com/person/jeff-moore";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor14
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor14
 :Actor14 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Joel Morris";
+<https://schema.org/name> "Joel Morris";
 :url0 "https://www.metacritic.com/person/joel-morris";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor15
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor15
 :Actor15 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "John Gettier";
+<https://schema.org/name> "John Gettier";
 :url0 "https://www.metacritic.com/person/john-gettier";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor16
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor16
 :Actor16 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Jonathan Ajayi";
+<https://schema.org/name> "Jonathan Ajayi";
 :url0 "https://www.metacritic.com/person/jonathan-ajayi";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor17
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor17
 :Actor17 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Julian Ferro";
+<https://schema.org/name> "Julian Ferro";
 :url0 "https://www.metacritic.com/person/julian-ferro";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor18
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor18
 :Actor18 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Justin Sisk";
+<https://schema.org/name> "Justin Sisk";
 :url0 "https://www.metacritic.com/person/justin-sisk";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor19
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor19
 :Actor19 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Kaila Ingram";
+<https://schema.org/name> "Kaila Ingram";
 :url0 "https://www.metacritic.com/person/kaila-ingram";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor20
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor20
 :Actor20 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Kristen Wiig";
+<https://schema.org/name> "Kristen Wiig";
 :url0 "https://www.rottentomatoes.com/celebrity/kristen_wiig";
 :imageUrl0 "https://resizing.flixster.com/P6P3MFr8YZqj_iCOIh7GxeYrPLg=/2000x2083/v1.cjs0OTMxNjtqOzE4NzY1OzEyMDA7MjAwMDsyMDgz";
 :url1 "/name/nm1325419/";
@@ -948,107 +948,107 @@
 :url3 "https://www.ecartelera.com/personas/kristen-wiig/";
 :imageUrl3 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor21
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor21
 :Actor21 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Kristoffer Polaha";
+<https://schema.org/name> "Kristoffer Polaha";
 :url0 "https://www.metacritic.com/person/kristoffer-polaha";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor22
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor22
 :Actor22 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Lilly Aspell";
+<https://schema.org/name> "Lilly Aspell";
 :url0 "https://www.metacritic.com/person/lilly-aspell";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor23
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor23
 :Actor23 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Lolita Marie";
+<https://schema.org/name> "Lolita Marie";
 :url0 "https://www.metacritic.com/person/lolita-marie";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor24
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor24
 :Actor24 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Lynda Carter";
+<https://schema.org/name> "Lynda Carter";
 :url0 "https://www.metacritic.com/person/lynda-carter";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor25
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor25
 :Actor25 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Lyon Beckwith";
+<https://schema.org/name> "Lyon Beckwith";
 :url0 "https://www.metacritic.com/person/lyon-beckwith";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor26
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor26
 :Actor26 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Manoj Anand";
+<https://schema.org/name> "Manoj Anand";
 :url0 "https://www.metacritic.com/person/manoj-anand";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor27
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor27
 :Actor27 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Marisol Correa";
+<https://schema.org/name> "Marisol Correa";
 :url0 "https://www.metacritic.com/person/marisol-correa";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor28
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor28
 :Actor28 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Marla Aaron Wapner";
+<https://schema.org/name> "Marla Aaron Wapner";
 :url0 "https://www.metacritic.com/person/marla-aaron-wapner";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor29
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor29
 :Actor29 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Monica Haynes";
+<https://schema.org/name> "Monica Haynes";
 :url0 "https://www.metacritic.com/person/monica-haynes";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor30
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor30
 :Actor30 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Natasha Rothwell";
+<https://schema.org/name> "Natasha Rothwell";
 :url0 "https://www.metacritic.com/person/natasha-rothwell";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor31
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor31
 :Actor31 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Oakley Bull";
+<https://schema.org/name> "Oakley Bull";
 :url0 "https://www.metacritic.com/person/oakley-bull";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor32
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor32
 :Actor32 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Paul Ron Cruz";
+<https://schema.org/name> "Paul Ron Cruz";
 :url0 "https://www.metacritic.com/person/paul-ron-cruz";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor33
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor33
 :Actor33 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Pedro Pascal";
+<https://schema.org/name> "Pedro Pascal";
 :url0 "https://www.rottentomatoes.com/celebrity/pedro_pascal";
 :imageUrl0 "https://resizing.flixster.com/uEke7o3H4ngITX7oLEYgZox9q2A=/220x196/v1.cjs0NDAwMDtqOzE4NzY1OzEyMDA7MjIwOzE5Ng";
 :url1 "/name/nm0050959/";
@@ -1058,35 +1058,35 @@
 :url3 "https://www.ecartelera.com/personas/pedro-pascal/";
 :imageUrl3 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor34
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor34
 :Actor34 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Penelope Kapudija";
+<https://schema.org/name> "Penelope Kapudija";
 :url0 "https://www.metacritic.com/person/penelope-kapudija";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor35
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor35
 :Actor35 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Ravi Patel";
+<https://schema.org/name> "Ravi Patel";
 :url0 "https://www.metacritic.com/person/ravi-patel";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor36
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor36
 :Actor36 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Rick Kelvin Branch";
+<https://schema.org/name> "Rick Kelvin Branch";
 :url0 "https://www.metacritic.com/person/rick-kelvin-branch";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor37
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor37
 :Actor37 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Robin Wright";
+<https://schema.org/name> "Robin Wright";
 :url0 "https://www.rottentomatoes.com/celebrity/robin_wright";
 :imageUrl0 "https://resizing.flixster.com/eIqrys_mhs7F3ohyamRpXh1yxJ8=/1000x1500/v1.bjs3NDQ4MjY7ajsxODc3MzsxMjAwOzEwMDA7MTUwMA";
 :url1 "https://www.metacritic.com/person/robin-wright";
@@ -1094,51 +1094,51 @@
 :url2 "https://www.ecartelera.com/personas/robin-wright/";
 :imageUrl2 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor38
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor38
 :Actor38 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Sia Alipour";
+<https://schema.org/name> "Sia Alipour";
 :url0 "https://www.metacritic.com/person/sia-alipour";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor39
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor39
 :Actor39 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Sonia Goswami";
+<https://schema.org/name> "Sonia Goswami";
 :url0 "https://www.metacritic.com/person/sonia-goswami";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor40
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor40
 :Actor40 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Spencer Trinwith";
+<https://schema.org/name> "Spencer Trinwith";
 :url0 "https://www.metacritic.com/person/spencer-trinwith";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor41
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor41
 :Actor41 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Tessa Bonham Jones";
+<https://schema.org/name> "Tessa Bonham Jones";
 :url0 "https://www.metacritic.com/person/tessa-bonham-jones";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor42
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Actor42
 :Actor42 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Thomas Clay Strickland";
+<https://schema.org/name> "Thomas Clay Strickland";
 :url0 "https://www.metacritic.com/person/thomas-clay-strickland";
 :imageUrl0 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Director0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Director0
 :Director0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Patty Jenkins";
+<https://schema.org/name> "Patty Jenkins";
 :url0 "https://www.rottentomatoes.com/celebrity/patty_jenkins";
 :imageUrl0 "";
 :url1 "/name/nm0420941/";
@@ -1148,826 +1148,826 @@
 :url3 "https://www.ecartelera.com/personas/patty-jenkins/";
 :imageUrl3 "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-0
 :Review0-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads.";
-<http://schema.org/dateCreated> "2021-02-01T04:29:30-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads.";
+<https://schema.org/dateCreated> "2021-02-01T04:29:30-08:00"^^xsd:dateTime;
 :url "https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160";
-<http://schema.org/author> :Person-Review0-0;
-<http://schema.org/reviewRating> :Rating-Review0-0;
-<http://schema.org/publisher> :Organization-Review0-0.
+<https://schema.org/author> :Person-Review0-0;
+<https://schema.org/reviewRating> :Rating-Review0-0;
+<https://schema.org/publisher> :Organization-Review0-0.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-0
 :Person-Review0-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Sheri Flanders";
+<https://schema.org/name> "Sheri Flanders";
 :url "https://www.rottentomatoes.com/critic/sheri-flanders".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-0
 :Rating-Review0-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-0
 :Organization-Review0-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Chicago Reader";
+<https://schema.org/name> "Chicago Reader";
 :url "https://www.rottentomatoes.com/source-66".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-1
 :Review0-1 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> " A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain.";
-<http://schema.org/dateCreated> "2021-01-04T04:59:29-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> " A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain.";
+<https://schema.org/dateCreated> "2021-01-04T04:59:29-08:00"^^xsd:dateTime;
 :url "https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436";
-<http://schema.org/author> :Person-Review0-1;
-<http://schema.org/reviewRating> :Rating-Review0-1;
-<http://schema.org/publisher> :Organization-Review0-1.
+<https://schema.org/author> :Person-Review0-1;
+<https://schema.org/reviewRating> :Rating-Review0-1;
+<https://schema.org/publisher> :Organization-Review0-1.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-1
 :Person-Review0-1 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Rafer Guzman";
+<https://schema.org/name> "Rafer Guzman";
 :url "https://www.rottentomatoes.com/critic/rafer-guzman".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-1
 :Rating-Review0-1 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-1
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-1
 :Organization-Review0-1 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Newsday";
+<https://schema.org/name> "Newsday";
 :url "https://www.rottentomatoes.com/source-338".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-2
 :Review0-2 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this.";
-<http://schema.org/dateCreated> "2021-01-04T03:37:14-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this.";
+<https://schema.org/dateCreated> "2021-01-04T03:37:14-08:00"^^xsd:dateTime;
 :url "https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/";
-<http://schema.org/author> :Person-Review0-2;
-<http://schema.org/reviewRating> :Rating-Review0-2;
-<http://schema.org/publisher> :Organization-Review0-2.
+<https://schema.org/author> :Person-Review0-2;
+<https://schema.org/reviewRating> :Rating-Review0-2;
+<https://schema.org/publisher> :Organization-Review0-2.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-2
 :Person-Review0-2 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Amy Nicholson";
+<https://schema.org/name> "Amy Nicholson";
 :url "https://www.rottentomatoes.com/critic/amy-nicholson".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-2
 :Rating-Review0-2 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-2
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-2
 :Organization-Review0-2 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "FilmWeek (KPCC - NPR Los Angeles)";
+<https://schema.org/name> "FilmWeek (KPCC - NPR Los Angeles)";
 :url "https://www.rottentomatoes.com/source-3509".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-3
 :Review0-3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it. ";
-<http://schema.org/dateCreated> "2020-12-29T12:09:48-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it. ";
+<https://schema.org/dateCreated> "2020-12-29T12:09:48-08:00"^^xsd:dateTime;
 :url "https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8";
-<http://schema.org/author> :Person-Review0-3;
-<http://schema.org/reviewRating> :Rating-Review0-3;
-<http://schema.org/publisher> :Organization-Review0-3.
+<https://schema.org/author> :Person-Review0-3;
+<https://schema.org/reviewRating> :Rating-Review0-3;
+<https://schema.org/publisher> :Organization-Review0-3.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-3
 :Person-Review0-3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Stephen Romei";
+<https://schema.org/name> "Stephen Romei";
 :url "https://www.rottentomatoes.com/critic/stephen-romei".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-3
 :Rating-Review0-3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-3
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-3
 :Organization-Review0-3 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "The Australian";
+<https://schema.org/name> "The Australian";
 :url "https://www.rottentomatoes.com/source-1964".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-4
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-4
 :Review0-4 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel.";
-<http://schema.org/dateCreated> "2020-12-28T07:49:06-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel.";
+<https://schema.org/dateCreated> "2020-12-28T07:49:06-08:00"^^xsd:dateTime;
 :url "https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html";
-<http://schema.org/author> :Person-Review0-4;
-<http://schema.org/reviewRating> :Rating-Review0-4;
-<http://schema.org/publisher> :Organization-Review0-4.
+<https://schema.org/author> :Person-Review0-4;
+<https://schema.org/reviewRating> :Rating-Review0-4;
+<https://schema.org/publisher> :Organization-Review0-4.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-4
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-4
 :Person-Review0-4 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Jake Wilson";
+<https://schema.org/name> "Jake Wilson";
 :url "https://www.rottentomatoes.com/critic/jake-wilson".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-4
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-4
 :Rating-Review0-4 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-4
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-4
 :Organization-Review0-4 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "The Age (Australia)";
+<https://schema.org/name> "The Age (Australia)";
 :url "https://www.rottentomatoes.com/source-2041".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-5
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-5
 :Review0-5 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema.";
-<http://schema.org/dateCreated> "2020-12-28T07:45:33-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema.";
+<https://schema.org/dateCreated> "2020-12-28T07:45:33-08:00"^^xsd:dateTime;
 :url "https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/";
-<http://schema.org/author> :Person-Review0-5;
-<http://schema.org/reviewRating> :Rating-Review0-5;
-<http://schema.org/publisher> :Organization-Review0-5.
+<https://schema.org/author> :Person-Review0-5;
+<https://schema.org/reviewRating> :Rating-Review0-5;
+<https://schema.org/publisher> :Organization-Review0-5.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-5
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-5
 :Person-Review0-5 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "David Sims";
+<https://schema.org/name> "David Sims";
 :url "https://www.rottentomatoes.com/critic/david-sims".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-5
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-5
 :Rating-Review0-5 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-5
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-5
 :Organization-Review0-5 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "The Atlantic";
+<https://schema.org/name> "The Atlantic";
 :url "https://www.rottentomatoes.com/source-24".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-6
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-6
 :Review0-6 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works.";
-<http://schema.org/dateCreated> "2021-04-03T14:11:59-07:00"^^xsd:dateTime;
-:url "http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/";
-<http://schema.org/author> :Person-Review0-6;
-<http://schema.org/reviewRating> :Rating-Review0-6;
-<http://schema.org/publisher> :Organization-Review0-6.
+<https://schema.org/reviewBody> "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works.";
+<https://schema.org/dateCreated> "2021-04-03T14:11:59-07:00"^^xsd:dateTime;
+:url "https://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/";
+<https://schema.org/author> :Person-Review0-6;
+<https://schema.org/reviewRating> :Rating-Review0-6;
+<https://schema.org/publisher> :Organization-Review0-6.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-6
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-6
 :Person-Review0-6 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Kevin Carr";
+<https://schema.org/name> "Kevin Carr";
 :url "https://www.rottentomatoes.com/critic/kevin-carr".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-6
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-6
 :Rating-Review0-6 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-6
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-6
 :Organization-Review0-6 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Fat Guys at the Movies";
+<https://schema.org/name> "Fat Guys at the Movies";
 :url "https://www.rottentomatoes.com/source-2722".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-7
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-7
 :Review0-7 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks.";
-<http://schema.org/dateCreated> "2021-03-23T10:02:10-07:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks.";
+<https://schema.org/dateCreated> "2021-03-23T10:02:10-07:00"^^xsd:dateTime;
 :url "https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/";
-<http://schema.org/author> :Person-Review0-7;
-<http://schema.org/reviewRating> :Rating-Review0-7;
-<http://schema.org/publisher> :Organization-Review0-7.
+<https://schema.org/author> :Person-Review0-7;
+<https://schema.org/reviewRating> :Rating-Review0-7;
+<https://schema.org/publisher> :Organization-Review0-7.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-7
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-7
 :Person-Review0-7 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "David Bax";
+<https://schema.org/name> "David Bax";
 :url "https://www.rottentomatoes.com/critic/david-bax".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-7
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-7
 :Rating-Review0-7 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-7
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-7
 :Organization-Review0-7 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Battleship Pretension";
+<https://schema.org/name> "Battleship Pretension";
 :url "https://www.rottentomatoes.com/source-3090".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-8
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-8
 :Review0-8 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "With its message of kindness and empathy, 'Wonder Woman 1984' offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey.";
-<http://schema.org/dateCreated> "2021-03-20T08:54:50-07:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "With its message of kindness and empathy, 'Wonder Woman 1984' offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey.";
+<https://schema.org/dateCreated> "2021-03-20T08:54:50-07:00"^^xsd:dateTime;
 :url "https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/";
-<http://schema.org/author> :Person-Review0-8;
-<http://schema.org/reviewRating> :Rating-Review0-8;
-<http://schema.org/publisher> :Organization-Review0-8.
+<https://schema.org/author> :Person-Review0-8;
+<https://schema.org/reviewRating> :Rating-Review0-8;
+<https://schema.org/publisher> :Organization-Review0-8.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-8
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-8
 :Person-Review0-8 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Valerie Kalfrin";
+<https://schema.org/name> "Valerie Kalfrin";
 :url "https://www.rottentomatoes.com/critic/valerie-kalfrin".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-8
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-8
 :Rating-Review0-8 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-8
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-8
 :Organization-Review0-8 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Their Own League";
+<https://schema.org/name> "Their Own League";
 :url "https://www.rottentomatoes.com/source-3607".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-9
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-9
 :Review0-9 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "There were just such gross failures of filmmaking...";
-<http://schema.org/dateCreated> "2021-03-11T06:02:25-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "There were just such gross failures of filmmaking...";
+<https://schema.org/dateCreated> "2021-03-11T06:02:25-08:00"^^xsd:dateTime;
 :url "https://youtu.be/75nDMuZMfLs";
-<http://schema.org/author> :Person-Review0-9;
-<http://schema.org/reviewRating> :Rating-Review0-9;
-<http://schema.org/publisher> :Organization-Review0-9.
+<https://schema.org/author> :Person-Review0-9;
+<https://schema.org/reviewRating> :Rating-Review0-9;
+<https://schema.org/publisher> :Organization-Review0-9.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-9
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-9
 :Person-Review0-9 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Andrew Galdi";
+<https://schema.org/name> "Andrew Galdi";
 :url "https://www.rottentomatoes.com/critic/andrew-galdi".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-9
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-9
 :Rating-Review0-9 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "-1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "-1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-9
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-9
 :Organization-Review0-9 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Movie Bitches";
+<https://schema.org/name> "Movie Bitches";
 :url "https://www.rottentomatoes.com/source-3639".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-10
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-10
 :Review0-10 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "At least 'Justice League' had at the decency to be short";
-<http://schema.org/dateCreated> "2021-03-11T05:51:39-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "At least 'Justice League' had at the decency to be short";
+<https://schema.org/dateCreated> "2021-03-11T05:51:39-08:00"^^xsd:dateTime;
 :url "https://youtu.be/75nDMuZMfLs";
-<http://schema.org/author> :Person-Review0-10;
-<http://schema.org/reviewRating> :Rating-Review0-10;
-<http://schema.org/publisher> :Organization-Review0-10.
+<https://schema.org/author> :Person-Review0-10;
+<https://schema.org/reviewRating> :Rating-Review0-10;
+<https://schema.org/publisher> :Organization-Review0-10.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-10
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-10
 :Person-Review0-10 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Avaryl Halley";
+<https://schema.org/name> "Avaryl Halley";
 :url "https://www.rottentomatoes.com/critic/avaryl-halley".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-10
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-10
 :Rating-Review0-10 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "-1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "-1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-10
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-10
 :Organization-Review0-10 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Movie Bitches";
+<https://schema.org/name> "Movie Bitches";
 :url "https://www.rottentomatoes.com/source-3639".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-11
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-11
 :Review0-11 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble. ";
-<http://schema.org/dateCreated> "2021-03-01T08:14:02-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble. ";
+<https://schema.org/dateCreated> "2021-03-01T08:14:02-08:00"^^xsd:dateTime;
 :url "https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984";
-<http://schema.org/author> :Person-Review0-11;
-<http://schema.org/reviewRating> :Rating-Review0-11;
-<http://schema.org/publisher> :Organization-Review0-11.
+<https://schema.org/author> :Person-Review0-11;
+<https://schema.org/reviewRating> :Rating-Review0-11;
+<https://schema.org/publisher> :Organization-Review0-11.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-11
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-11
 :Person-Review0-11 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Nina Garin";
+<https://schema.org/name> "Nina Garin";
 :url "https://www.rottentomatoes.com/critic/nina-garin".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-11
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-11
 :Rating-Review0-11 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-11
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-11
 :Organization-Review0-11 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "San Diego Union-Tribune";
+<https://schema.org/name> "San Diego Union-Tribune";
 :url "https://www.rottentomatoes.com/source-503".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-12
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-12
 :Review0-12 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', 'Yonda Lies Da Castle of My Fodda,' seem Shakespearean.";
-<http://schema.org/dateCreated> "2021-02-22T06:02:11-08:00"^^xsd:dateTime;
-:url "http://www.tonymedley.com/2020/Wonder_Woman_1984.htm";
-<http://schema.org/author> :Person-Review0-12;
-<http://schema.org/reviewRating> :Rating-Review0-12;
-<http://schema.org/publisher> :Organization-Review0-12.
+<https://schema.org/reviewBody> "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', 'Yonda Lies Da Castle of My Fodda,' seem Shakespearean.";
+<https://schema.org/dateCreated> "2021-02-22T06:02:11-08:00"^^xsd:dateTime;
+:url "https://www.tonymedley.com/2020/Wonder_Woman_1984.htm";
+<https://schema.org/author> :Person-Review0-12;
+<https://schema.org/reviewRating> :Rating-Review0-12;
+<https://schema.org/publisher> :Organization-Review0-12.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-12
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-12
 :Person-Review0-12 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Tony Medley";
+<https://schema.org/name> "Tony Medley";
 :url "https://www.rottentomatoes.com/critic/tony-medley".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-12
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-12
 :Rating-Review0-12 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "-1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "-1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-12
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-12
 :Organization-Review0-12 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "The Larchmont Chronicle";
+<https://schema.org/name> "The Larchmont Chronicle";
 :url "https://www.rottentomatoes.com/source-2992".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-13
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-13
 :Review0-13 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down.";
-<http://schema.org/dateCreated> "2021-02-21T08:36:54-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down.";
+<https://schema.org/dateCreated> "2021-02-21T08:36:54-08:00"^^xsd:dateTime;
 :url "https://concreteplayground.com/sydney/event/wonder-woman-1984";
-<http://schema.org/author> :Person-Review0-13;
-<http://schema.org/reviewRating> :Rating-Review0-13;
-<http://schema.org/publisher> :Organization-Review0-13.
+<https://schema.org/author> :Person-Review0-13;
+<https://schema.org/reviewRating> :Rating-Review0-13;
+<https://schema.org/publisher> :Organization-Review0-13.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-13
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-13
 :Person-Review0-13 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Sarah Ward";
+<https://schema.org/name> "Sarah Ward";
 :url "https://www.rottentomatoes.com/critic/sarah-ward".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-13
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-13
 :Rating-Review0-13 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "-1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "-1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-13
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-13
 :Organization-Review0-13 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Concrete Playground";
+<https://schema.org/name> "Concrete Playground";
 :url "https://www.rottentomatoes.com/source-2298".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-14
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-14
 :Review0-14 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "Feels like this would be better suited for an episode of TV than a 2.5 hour film.";
-<http://schema.org/dateCreated> "2021-02-17T02:36:51-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "Feels like this would be better suited for an episode of TV than a 2.5 hour film.";
+<https://schema.org/dateCreated> "2021-02-17T02:36:51-08:00"^^xsd:dateTime;
 :url "https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984";
-<http://schema.org/author> :Person-Review0-14;
-<http://schema.org/reviewRating> :Rating-Review0-14;
-<http://schema.org/publisher> :Organization-Review0-14.
+<https://schema.org/author> :Person-Review0-14;
+<https://schema.org/reviewRating> :Rating-Review0-14;
+<https://schema.org/publisher> :Organization-Review0-14.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-14
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-14
 :Person-Review0-14 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Eric Marchen";
+<https://schema.org/name> "Eric Marchen";
 :url "https://www.rottentomatoes.com/critic/eric-marchen".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-14
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-14
 :Rating-Review0-14 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "-1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "-1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-14
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-14
 :Organization-Review0-14 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Untitled Movie Podcast";
+<https://schema.org/name> "Untitled Movie Podcast";
 :url "https://www.rottentomatoes.com/source-3831".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-15
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-15
 :Review0-15 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale.";
-<http://schema.org/dateCreated> "2021-02-13T23:57:56-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale.";
+<https://schema.org/dateCreated> "2021-02-13T23:57:56-08:00"^^xsd:dateTime;
 :url "https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html";
-<http://schema.org/author> :Person-Review0-15;
-<http://schema.org/reviewRating> :Rating-Review0-15;
-<http://schema.org/publisher> :Organization-Review0-15.
+<https://schema.org/author> :Person-Review0-15;
+<https://schema.org/reviewRating> :Rating-Review0-15;
+<https://schema.org/publisher> :Organization-Review0-15.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-15
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-15
 :Person-Review0-15 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Mark Meszoros";
+<https://schema.org/name> "Mark Meszoros";
 :url "https://www.rottentomatoes.com/critic/mark-meszoros".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-15
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-15
 :Rating-Review0-15 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-15
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-15
 :Organization-Review0-15 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "The News-Herald (Willoughby, OH)";
+<https://schema.org/name> "The News-Herald (Willoughby, OH)";
 :url "https://www.rottentomatoes.com/source-3916".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-16
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-16
 :Review0-16 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing.";
-<http://schema.org/dateCreated> "2021-02-11T02:38:41-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing.";
+<https://schema.org/dateCreated> "2021-02-11T02:38:41-08:00"^^xsd:dateTime;
 :url "https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/";
-<http://schema.org/author> :Person-Review0-16;
-<http://schema.org/reviewRating> :Rating-Review0-16;
-<http://schema.org/publisher> :Organization-Review0-16.
+<https://schema.org/author> :Person-Review0-16;
+<https://schema.org/reviewRating> :Rating-Review0-16;
+<https://schema.org/publisher> :Organization-Review0-16.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-16
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-16
 :Person-Review0-16 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Jennifer Ouellette";
+<https://schema.org/name> "Jennifer Ouellette";
 :url "https://www.rottentomatoes.com/critic/jennifer-ouellette".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-16
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-16
 :Rating-Review0-16 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-16
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-16
 :Organization-Review0-16 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Ars Technica";
+<https://schema.org/name> "Ars Technica";
 :url "https://www.rottentomatoes.com/source-2985".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-17
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-17
 :Review0-17 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins. ";
-<http://schema.org/dateCreated> "2021-02-10T06:48:34-08:00"^^xsd:dateTime;
-:url "http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984";
-<http://schema.org/author> :Person-Review0-17;
-<http://schema.org/reviewRating> :Rating-Review0-17;
-<http://schema.org/publisher> :Organization-Review0-17.
+<https://schema.org/reviewBody> "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins. ";
+<https://schema.org/dateCreated> "2021-02-10T06:48:34-08:00"^^xsd:dateTime;
+:url "https://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984";
+<https://schema.org/author> :Person-Review0-17;
+<https://schema.org/reviewRating> :Rating-Review0-17;
+<https://schema.org/publisher> :Organization-Review0-17.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-17
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-17
 :Person-Review0-17 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Brian Gill";
+<https://schema.org/name> "Brian Gill";
 :url "https://www.rottentomatoes.com/critic/brian-gill".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-17
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-17
 :Rating-Review0-17 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-17
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-17
 :Organization-Review0-17 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Mad About Movies Podcast";
+<https://schema.org/name> "Mad About Movies Podcast";
 :url "https://www.rottentomatoes.com/source-3256".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-18
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-18
 :Review0-18 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "...a joyless dud, a bucket of sludge when we're crying out for a glass of water...";
-<http://schema.org/dateCreated> "2021-02-07T19:57:42-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "...a joyless dud, a bucket of sludge when we're crying out for a glass of water...";
+<https://schema.org/dateCreated> "2021-02-07T19:57:42-08:00"^^xsd:dateTime;
 :url "https://film-authority.com/2021/01/11/wonder-woman-1984/";
-<http://schema.org/author> :Person-Review0-18;
-<http://schema.org/reviewRating> :Rating-Review0-18;
-<http://schema.org/publisher> :Organization-Review0-18.
+<https://schema.org/author> :Person-Review0-18;
+<https://schema.org/reviewRating> :Rating-Review0-18;
+<https://schema.org/publisher> :Organization-Review0-18.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-18
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-18
 :Person-Review0-18 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Eddie Harrison";
+<https://schema.org/name> "Eddie Harrison";
 :url "https://www.rottentomatoes.com/critic/eddie-harrison".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-18
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-18
 :Rating-Review0-18 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "-1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "-1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-18
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-18
 :Organization-Review0-18 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "film-authority.com";
+<https://schema.org/name> "film-authority.com";
 :url "https://www.rottentomatoes.com/source-3904".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-19
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-19
 :Review0-19 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "I'm not usually a fan of the 'multiple villain' thing, but I thought it was handled pretty well here.";
-<http://schema.org/dateCreated> "2021-02-05T19:46:31-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "I'm not usually a fan of the 'multiple villain' thing, but I thought it was handled pretty well here.";
+<https://schema.org/dateCreated> "2021-02-05T19:46:31-08:00"^^xsd:dateTime;
 :url "https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984";
-<http://schema.org/author> :Person-Review0-19;
-<http://schema.org/reviewRating> :Rating-Review0-19;
-<http://schema.org/publisher> :Organization-Review0-19.
+<https://schema.org/author> :Person-Review0-19;
+<https://schema.org/reviewRating> :Rating-Review0-19;
+<https://schema.org/publisher> :Organization-Review0-19.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-19
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-19
 :Person-Review0-19 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Ian Simmons";
+<https://schema.org/name> "Ian Simmons";
 :url "https://www.rottentomatoes.com/critic/ian-simmons".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-19
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-19
 :Rating-Review0-19 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-19
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-19
 :Organization-Review0-19 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Kicking the Seat";
+<https://schema.org/name> "Kicking the Seat";
 :url "https://www.rottentomatoes.com/source-3892".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-20
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-20
 :Review0-20 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil. ";
-<http://schema.org/dateCreated> "2021-02-05T01:55:00-08:00"^^xsd:dateTime;
-:url "http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/";
-<http://schema.org/author> :Person-Review0-20;
-<http://schema.org/reviewRating> :Rating-Review0-20;
-<http://schema.org/publisher> :Organization-Review0-20.
+<https://schema.org/reviewBody> "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil. ";
+<https://schema.org/dateCreated> "2021-02-05T01:55:00-08:00"^^xsd:dateTime;
+:url "https://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/";
+<https://schema.org/author> :Person-Review0-20;
+<https://schema.org/reviewRating> :Rating-Review0-20;
+<https://schema.org/publisher> :Organization-Review0-20.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-20
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-20
 :Person-Review0-20 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Dan Tabor";
+<https://schema.org/name> "Dan Tabor";
 :url "https://www.rottentomatoes.com/critic/dan-tabor".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-20
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-20
 :Rating-Review0-20 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-20
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-20
 :Organization-Review0-20 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Phawker";
+<https://schema.org/name> "Phawker";
 :url "https://www.rottentomatoes.com/source-3631".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-21
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-21
 :Review0-21 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "'Wonder Woman' (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown.";
-<http://schema.org/dateCreated> "2021-02-02T10:00:09-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "'Wonder Woman' (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown.";
+<https://schema.org/dateCreated> "2021-02-02T10:00:09-08:00"^^xsd:dateTime;
 :url "https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html";
-<http://schema.org/author> :Person-Review0-21;
-<http://schema.org/reviewRating> :Rating-Review0-21;
-<http://schema.org/publisher> :Organization-Review0-21.
+<https://schema.org/author> :Person-Review0-21;
+<https://schema.org/reviewRating> :Rating-Review0-21;
+<https://schema.org/publisher> :Organization-Review0-21.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-21
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-21
 :Person-Review0-21 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Mark Jackson";
+<https://schema.org/name> "Mark Jackson";
 :url "https://www.rottentomatoes.com/critic/mark-jackson".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-21
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-21
 :Rating-Review0-21 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "-1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "-1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-21
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-21
 :Organization-Review0-21 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Epoch Times";
+<https://schema.org/name> "Epoch Times";
 :url "https://www.rottentomatoes.com/source-2771".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-22
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-22
 :Review0-22 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?";
-<http://schema.org/dateCreated> "2021-01-31T18:14:33-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?";
+<https://schema.org/dateCreated> "2021-01-31T18:14:33-08:00"^^xsd:dateTime;
 :url "https://www.johnmcdonald.net.au/2021/wonder-woman-1984/";
-<http://schema.org/author> :Person-Review0-22;
-<http://schema.org/reviewRating> :Rating-Review0-22;
-<http://schema.org/publisher> :Organization-Review0-22.
+<https://schema.org/author> :Person-Review0-22;
+<https://schema.org/reviewRating> :Rating-Review0-22;
+<https://schema.org/publisher> :Organization-Review0-22.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-22
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-22
 :Person-Review0-22 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "John McDonald";
+<https://schema.org/name> "John McDonald";
 :url "https://www.rottentomatoes.com/critic/john-mcdonald".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-22
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-22
 :Rating-Review0-22 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "-1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "-1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-22
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-22
 :Organization-Review0-22 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "Australian Financial Review";
+<https://schema.org/name> "Australian Financial Review";
 :url "https://www.rottentomatoes.com/source-3199".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-23
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review0-23
 :Review0-23 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> " After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful.";
-<http://schema.org/dateCreated> "2021-01-31T17:01:54-08:00"^^xsd:dateTime;
+<https://schema.org/reviewBody> " After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful.";
+<https://schema.org/dateCreated> "2021-01-31T17:01:54-08:00"^^xsd:dateTime;
 :url "https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html";
-<http://schema.org/author> :Person-Review0-23;
-<http://schema.org/reviewRating> :Rating-Review0-23;
-<http://schema.org/publisher> :Organization-Review0-23.
+<https://schema.org/author> :Person-Review0-23;
+<https://schema.org/reviewRating> :Rating-Review0-23;
+<https://schema.org/publisher> :Organization-Review0-23.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-23
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review0-23
 :Person-Review0-23 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "Matt Neal";
+<https://schema.org/name> "Matt Neal";
 :url "https://www.rottentomatoes.com/critic/matt-neal".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-23
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review0-23
 :Rating-Review0-23 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "-1";
-<http://schema.org/bestRating> "1";
-<http://schema.org/ratingValue> "-1".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "-1";
+<https://schema.org/bestRating> "1";
+<https://schema.org/ratingValue> "-1".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-23
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Organization-Review0-23
 :Organization-Review0-23 rdf:type owl:NamedIndividual, 
-<http://schema.org/Organization> ;
+<https://schema.org/Organization> ;
 :type "Organization" ;
-<http://schema.org/name> "ABC Radio (Australia)";
+<https://schema.org/name> "ABC Radio (Australia)";
 :url "https://www.rottentomatoes.com/source-2397".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review1-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Review1-0
 :Review1-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Review> ;
+<https://schema.org/Review> ;
 :type "Review" ;
-<http://schema.org/reviewBody> "Very colorful, lots of money spent. Kristin Wiig was a masterpiece of miscasting. She wasn't funny; she wasn't scary, but great costume. The whole plot was a vehicle to resurrect Chris Pine, but there was no real chemistry between them. It made the lines of endearment quite awkward and the embraces seemed forced. All the usual tropes: WW loses some of her powers, so there can be suspense; she plays Spiderman and holds two vehicles apart. Just nothing new and Gad Gadot proves again that she's a glamour model and poses well. She can't act. Still - entertainment in a vacuum of good movies, so watch it and be distracted for TWO AND A HALF hours.";
-<http://schema.org/dateCreated> "2021-01-01T00:00:00-00:00"^^xsd:dateTime;
-<http://schema.org/name> "In quarantine, you'll buy anything.";
-<http://schema.org/inLanguage> "English";
-<http://schema.org/author> :Person-Review1-0;
-<http://schema.org/reviewRating> :Rating-Review1-0;
-<http://schema.org/publisher> :ItemReviewed-Review1-0.
+<https://schema.org/reviewBody> "Very colorful, lots of money spent. Kristin Wiig was a masterpiece of miscasting. She wasn't funny; she wasn't scary, but great costume. The whole plot was a vehicle to resurrect Chris Pine, but there was no real chemistry between them. It made the lines of endearment quite awkward and the embraces seemed forced. All the usual tropes: WW loses some of her powers, so there can be suspense; she plays Spiderman and holds two vehicles apart. Just nothing new and Gad Gadot proves again that she's a glamour model and poses well. She can't act. Still - entertainment in a vacuum of good movies, so watch it and be distracted for TWO AND A HALF hours.";
+<https://schema.org/dateCreated> "2021-01-01T00:00:00-00:00"^^xsd:dateTime;
+<https://schema.org/name> "In quarantine, you'll buy anything.";
+<https://schema.org/inLanguage> "English";
+<https://schema.org/author> :Person-Review1-0;
+<https://schema.org/reviewRating> :Rating-Review1-0;
+<https://schema.org/publisher> :ItemReviewed-Review1-0.
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review1-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Person-Review1-0
 :Person-Review1-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Person> ;
+<https://schema.org/Person> ;
 :type "Person" ;
-<http://schema.org/name> "In quarantine, you'll buy anything.";
+<https://schema.org/name> "In quarantine, you'll buy anything.";
 :url "".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review1-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#Rating-Review1-0
 :Rating-Review1-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/Rating> ;
-<http://schema.org/worstRating> "1";
-<http://schema.org/bestRating> "10";
-<http://schema.org/ratingValue> "5".
+<https://schema.org/Rating> ;
+<https://schema.org/worstRating> "1";
+<https://schema.org/bestRating> "10";
+<https://schema.org/ratingValue> "5".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#ItemReviewed-Review1-0
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#ItemReviewed-Review1-0
 :ItemReviewed-Review1-0 rdf:type owl:NamedIndividual, 
-<http://schema.org/CreativeWork> ;
+<https://schema.org/CreativeWork> ;
 :type "CreativeWork" ; 
 :url "/title/tt7126948/".
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#film0 
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#film0 
 :film0 rdf:type owl:NamedIndividual , 
- <http://schema.org/Movie> ; 
- <http://schema.org/name> "Wonder Woman 1984"; 
- <http://schema.org/contentRating> "PG-13"; 
- <http://schema.org/contentRating> "Science fiction , Fantasy , Action , Adventure"; 
-<http://schema.org/dateCreated> "2017-09-13T08:24:15-07:00"^^xsd:dateTime;
-<http://schema.org/dateModified> "2021-04-19T21:02:22-07:00"^^xsd:dateTime;
+ <https://schema.org/Movie> ; 
+ <https://schema.org/name> "Wonder Woman 1984"; 
+ <https://schema.org/contentRating> "PG-13"; 
+ <https://schema.org/contentRating> "Science fiction , Fantasy , Action , Adventure"; 
+<https://schema.org/dateCreated> "2017-09-13T08:24:15-07:00"^^xsd:dateTime;
+<https://schema.org/dateModified> "2021-04-19T21:02:22-07:00"^^xsd:dateTime;
 :imageUrl "https://resizing.flixster.com/m8G6eIbecl1KNYf1yd2lt2F5yX8=/740x380/v1.bjsyNTUxODM4O2o7MTg4Mzk7MTIwMDs0MTIyOzIzMTI" ;
-<http://schema.org/aggregateRating> :Rating0;
-<http://schema.org/productionCompany> :Organization0;
-<http://schema.org/author> :Author0-0  ;
-<http://schema.org/actor>    :Actor5 , 
+<https://schema.org/aggregateRating> :Rating0;
+<https://schema.org/productionCompany> :Organization0;
+<https://schema.org/author> :Author0-0  ;
+<https://schema.org/actor>    :Actor5 , 
  :Actor7 , 
  :Actor10 , 
  :Actor20 , 
  :Actor33 , 
  :Actor37 ;
-<http://schema.org/director>    :Director0 ;
-<http://schema.org/review>   :Review0-0 , 
+<https://schema.org/director>    :Director0 ;
+<https://schema.org/review>   :Review0-0 , 
 :Review0-1 , 
 :Review0-2 , 
 :Review0-3 , 
@@ -1992,18 +1992,18 @@
 :Review0-22 , 
 :Review0-23 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#film1 
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#film1 
 :film1 rdf:type owl:NamedIndividual , 
- <http://schema.org/Movie> ; 
- <http://schema.org/name> "Wonder Woman 1984"; 
- <http://schema.org/contentRating> "PG-13"; 
- <http://schema.org/contentRating> "Science fiction , Fantasy , Action , Adventure"; 
-<http://schema.org/datePublished> "2020-12-16T00:00:00-00:00"^^xsd:dateTime;
-<http://schema.org/description> "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient...";
-<http://schema.org/keywords> "sequel,superhero,dc extended universe,dc comics,action heroine";
+ <https://schema.org/Movie> ; 
+ <https://schema.org/name> "Wonder Woman 1984"; 
+ <https://schema.org/contentRating> "PG-13"; 
+ <https://schema.org/contentRating> "Science fiction , Fantasy , Action , Adventure"; 
+<https://schema.org/datePublished> "2020-12-16T00:00:00-00:00"^^xsd:dateTime;
+<https://schema.org/description> "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient...";
+<https://schema.org/keywords> "sequel,superhero,dc extended universe,dc comics,action heroine";
 :imageUrl "https://m.media-amazon.com/images/M/MV5BYTlhNzJjYzYtNGU3My00ZDI5LTgzZDUtYzllYjU1ZmU0YTgwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg" ;
-<http://schema.org/aggregateRating> :Rating1;
-<http://schema.org/creator> :Creator1-0 , 
+<https://schema.org/aggregateRating> :Rating1;
+<https://schema.org/creator> :Creator1-0 , 
  :Creator1-1 , 
  :Creator1-2 , 
  :Creator1-3 , 
@@ -2014,27 +2014,27 @@
  :Creator1-8 , 
  :Creator1-9 , 
  :Creator1-10  ;
-<http://schema.org/trailer> :VideoObject1;
-<http://schema.org/actor>    :Actor5 , 
+<https://schema.org/trailer> :VideoObject1;
+<https://schema.org/actor>    :Actor5 , 
  :Actor10 , 
  :Actor20 , 
  :Actor33 ;
-<http://schema.org/director>    :Director0 ;
-<http://schema.org/review>   :Review1-0 .
+<https://schema.org/director>    :Director0 ;
+<https://schema.org/review>   :Review1-0 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#film2 
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#film2 
 :film2 rdf:type owl:NamedIndividual , 
- <http://schema.org/Movie> ; 
- <http://schema.org/name> "Wonder Woman 1984"; 
- <http://schema.org/contentRating> "PG-13"; 
- <http://schema.org/contentRating> "Science fiction , Fantasy , Action , Adventure"; 
-<http://schema.org/datePublished> "2020-12-25T00:00:00-00:00"^^xsd:dateTime;
-<http://schema.org/description> "Fast forward to the 1980s as Wonder Woman�s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah.";
+ <https://schema.org/Movie> ; 
+ <https://schema.org/name> "Wonder Woman 1984"; 
+ <https://schema.org/contentRating> "PG-13"; 
+ <https://schema.org/contentRating> "Science fiction , Fantasy , Action , Adventure"; 
+<https://schema.org/datePublished> "2020-12-25T00:00:00-00:00"^^xsd:dateTime;
+<https://schema.org/description> "Fast forward to the 1980s as Wonder Woman�s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah.";
 :imageUrl "https://static.metacritic.com/images/products/movies/4/9d1a4650bb42f43a0a781bfa70a7772d.jpg" ;
-<http://schema.org/aggregateRating> :Rating2;
-<http://schema.org/publisher> :Publisher2;
-<http://schema.org/trailer> :VideoObject2;
-<http://schema.org/actor>    :Actor0 , 
+<https://schema.org/aggregateRating> :Rating2;
+<https://schema.org/publisher> :Publisher2;
+<https://schema.org/trailer> :VideoObject2;
+<https://schema.org/actor>    :Actor0 , 
  :Actor1 , 
  :Actor2 , 
  :Actor3 , 
@@ -2077,32 +2077,32 @@
  :Actor40 , 
  :Actor41 , 
  :Actor42 ;
-<http://schema.org/director>    :Director0 .
+<https://schema.org/director>    :Director0 .
 
-###  http://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#film3 
+###  https://raw.githubusercontent.com/matiasruizcheylat/tpSemanticaRepo/main/Movies2021T2.owl#film3 
 :film3 rdf:type owl:NamedIndividual , 
- <http://schema.org/Movie> ; 
- <http://schema.org/name> "Wonder Woman 1984"; 
- <http://schema.org/contentRating> "PG-13"; 
- <http://schema.org/contentRating> "Science fiction , Fantasy , Action , Adventure"; 
-<http://schema.org/description> "&#39;Wonder Woman 1984&#39; llegar� a la pantalla grande el pr�ximo 5 de junio de 2020, de nuevo con la actriz israel� Gal Gadot en el papel de la Mujer Maravilla y Patty Jenkins detr�s de las c�maras. La secuela de &#39;Wonder Woman&#39; contar� adem�s con el regreso de Chris Pine (&#39;Star Trek. M�s all�&#39;) como Steve Trevor. La pel�cula sigue a Diana en su vida durante los a�os 80 en Estados Unidos. En esta ocasi�n, Diana se enfrentar� a nuevos enemigos. Su principal antagonista es la arque�loga brit�nica Barbara Minerva, que ser� interpretada por Kristen Wigg (&#39;Cazafantasmas&#39;). La cient�fica tiene un alter ego, la villana Cheetah que tiene una fuerza y agilidad sobrehumanas. Otro enemigo a tener en cuenta ser� el empresario Maxwel Lord, interpretado por Pedro Pascal (&#39;The Mandalorian&#39;). Este personaje es un arrogante con la habilidad de manipular a otros a su antojo. En los c�mics, Max Lord tiene poderes mentales. Tambi�n aparecen en esta cinta las guerreras amazonas Antiope (Robin Wright) y la Reina Hippolyta (Connie Nielsen). La trama de esta pel�cula es una gran misterio. El gui�n est� basado en una historia escrita por Patty Jenkins, Geoff Johns (&#39;The Flash&#39;, &#39;Aquaman&#39;) y Dave Callaham (&#39;Zombieland: Mata y remata&#39;). Se espera que tenga protagonismo la tecnolog�a y la vigilancia, teniendo en cuenta el t�tulo que hace referencia a la distop�a de &#39;1984&#39; de George Orwell.";
-<http://schema.org/image> :ImageObject3;
-<http://schema.org/hasPart> :Clip3;
-<http://schema.org/aggregateRating> :Rating3;
-<http://schema.org/productionCompany> :Organization3;
-<http://schema.org/publication> :PublicationEvent3;
-<http://schema.org/countryOfOrigin> :Country3;
-<http://schema.org/character> :Character3-0 , 
+ <https://schema.org/Movie> ; 
+ <https://schema.org/name> "Wonder Woman 1984"; 
+ <https://schema.org/contentRating> "PG-13"; 
+ <https://schema.org/contentRating> "Science fiction , Fantasy , Action , Adventure"; 
+<https://schema.org/description> "&#39;Wonder Woman 1984&#39; llegar� a la pantalla grande el pr�ximo 5 de junio de 2020, de nuevo con la actriz israel� Gal Gadot en el papel de la Mujer Maravilla y Patty Jenkins detr�s de las c�maras. La secuela de &#39;Wonder Woman&#39; contar� adem�s con el regreso de Chris Pine (&#39;Star Trek. M�s all�&#39;) como Steve Trevor. La pel�cula sigue a Diana en su vida durante los a�os 80 en Estados Unidos. En esta ocasi�n, Diana se enfrentar� a nuevos enemigos. Su principal antagonista es la arque�loga brit�nica Barbara Minerva, que ser� interpretada por Kristen Wigg (&#39;Cazafantasmas&#39;). La cient�fica tiene un alter ego, la villana Cheetah que tiene una fuerza y agilidad sobrehumanas. Otro enemigo a tener en cuenta ser� el empresario Maxwel Lord, interpretado por Pedro Pascal (&#39;The Mandalorian&#39;). Este personaje es un arrogante con la habilidad de manipular a otros a su antojo. En los c�mics, Max Lord tiene poderes mentales. Tambi�n aparecen en esta cinta las guerreras amazonas Antiope (Robin Wright) y la Reina Hippolyta (Connie Nielsen). La trama de esta pel�cula es una gran misterio. El gui�n est� basado en una historia escrita por Patty Jenkins, Geoff Johns (&#39;The Flash&#39;, &#39;Aquaman&#39;) y Dave Callaham (&#39;Zombieland: Mata y remata&#39;). Se espera que tenga protagonismo la tecnolog�a y la vigilancia, teniendo en cuenta el t�tulo que hace referencia a la distop�a de &#39;1984&#39; de George Orwell.";
+<https://schema.org/image> :ImageObject3;
+<https://schema.org/hasPart> :Clip3;
+<https://schema.org/aggregateRating> :Rating3;
+<https://schema.org/productionCompany> :Organization3;
+<https://schema.org/publication> :PublicationEvent3;
+<https://schema.org/countryOfOrigin> :Country3;
+<https://schema.org/character> :Character3-0 , 
  :Character3-1 , 
  :Character3-2 , 
  :Character3-3 , 
  :Character3-4  ;
-<http://schema.org/actor>    :Actor5 , 
+<https://schema.org/actor>    :Actor5 , 
  :Actor7 , 
  :Actor10 , 
  :Actor20 , 
  :Actor33 , 
  :Actor37 ;
-<http://schema.org/director>    :Director0 .
+<https://schema.org/director>    :Director0 .
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
